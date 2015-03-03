@@ -1,6 +1,6 @@
 # Filter #
 
-Den här uppgiften går ut på att skriva ett tre olika funktioner för att filtrera listor.
+Den här uppgiften går ut på att skriva tre olika funktioner för att filtrera listor.
 
 ## Bedömningsmatris ##
 
@@ -51,14 +51,6 @@ Unika: `unique`
 
 ### Exempel ###
 
-#### Ruby ####
-
-    filter(array: [["bosse", "daniel", "edvard", "bosse", "bosse"], value: "bosse") #=> ["bosse", "bosse", "bosse"]
-
-    exclude(array: [["bosse", "daniel", "edvard", "bosse", "bosse"], value: "bosse") #=> [daniel", "edvard"]
-
-    unique(array: [["bosse", "daniel", "edvard", "bosse"], "bosse") #=> ["bosse","daniel", "edvard"]
-
 ### Python ####
 
     filter(array: [["bosse", "daniel", "edvard", "bosse", "bosse"], "bosse") >>> ["bosse", "bosse", "bosse"]
@@ -82,16 +74,6 @@ När du känner att du har ett fungerande flödesschema, be läraren att kolla p
 
 Programmet skall utvecklas med hjälp av testerna.
 
-##### Ruby #####
-
-Kör `bundle install` för att installera alla dependencies (och `rbenv rehash` om rspec inte redan var installerat)
-
-Skapa funktionerna i `lib/filters.rb`
-
-Testerna finns i `spec/filters_spec.rb`, `spec/exclude_spec.rb` och `spec/unique_spec.rb`
-
-Kör `rspec <filename>` för att köra testerna för den specifika funktionen, eller enbart `rspec`för att köra samtliga testfiler .
-
 ##### Python #####
 
 Skapa funktionerna i `lib/filters.py`
@@ -105,14 +87,6 @@ Kor `nosetests --rednose test/<testfilnamn>` för att köra testerna för den sp
 * Om du inte kan beskriva lösningen i ord kommer det vara så gott som omöjligt att skapa ett flödesschema
 * Fundera på vilka variabler som behövs
 * Testa flödesschemat med hjälp av penna och papper
-
-### Ruby ###
-
-Läs mer om loopar och listor i övningar 32, 34, och 38 i [*Learn Ruby the Hard Way*](http://ruby.learncodethehardway.org/book)
-
-* [Exercise 32: Loops and Arrays](http://learnrubythehardway.org/book/ex32.html)
-* [Exercise 34: Accessing Elements of Arrays](http://learnrubythehardway.org/book/ex34.html)
-* [Exercise 38: Doing Things to Arrays](http://learnrubythehardway.org/book/ex38.html)
 
 ### Python ###
 
